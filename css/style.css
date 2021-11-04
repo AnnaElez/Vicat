@@ -59,19 +59,24 @@
 
 
 
-
-
+/* First wallpaper */
 .alliens_wrap{
-    height: 115vh;
-    background:url("../img/7.jpg") no-repeat;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
+.alliens_wrap img{
+    width: 100%;
+}
+
+
+/* Alliens collage */
 .collage{
     position: relative;
     background:var(--blue1) url("../img/3.jpg") no-repeat center;
     height: 100vh;
     background-size: 35%;
+    margin-top: -5px;
 }
 
 .rotatable_al{
@@ -97,6 +102,8 @@
     width: 37rem;
 }
 
+/* Wallpaper alliens withput shape */
+
 .without_shape{
     display: block;
     width: 50vw;
@@ -104,8 +111,16 @@
 }
 
 
+/* Alliens cards + wallpaper without shape */
+
+.dark_back + .flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .cards{
-    padding: 300px 0 200px 0;
+    padding: 300px 0;
     width: 60vw;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 15px; 
@@ -116,6 +131,7 @@
 }
 
 
+/* Div with UNHOLEY */
 .full_width_img{
     background: url("../img/1.jpg") no-repeat;
     position: relative;
@@ -135,11 +151,11 @@
     font-size: 2.5rem;
 }
 
-
+/* Two heads wallpaper */
 .background_of_two{
     background-image: url("../img/24.jpg");
     background-size: cover;
-    height: 240vh;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
@@ -159,6 +175,7 @@
     transform: translate(-50%, -50%)
 }
 
+/* B&W cards with heads  and gif*/
 .cards_grid{
     padding: 100px 0;
     width: 70vw ;
@@ -167,8 +184,15 @@
 }
 
 .gif{
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.gif img{
     width: 50vw;
 }
+
+/* Alice in wonderland wallpaper */
 
 .wallpaper{
     height: 115vh;
@@ -187,6 +211,8 @@
     top: 50px;
     right: 300px;
 }
+
+/* Total poker cards block */
 
 .three_column_grid{
     position: relative;
@@ -245,6 +271,7 @@
     transform: matrix(1.1,0,0,1.1,0,0);
 }
 
+/* Gallery of few illustrations */
 
 .gallery{
     width: 90vw;
@@ -268,6 +295,7 @@
     width: 25%;
 }
 
+/* Pictures outside ordinary row  */
 .picture_out_row1{
     position: absolute;
     bottom: 0;
@@ -303,6 +331,8 @@
 }
 
 
+/* Contacts */
+
 .contact {
     margin: 100px 0 0 0;
     border-top: 1px solid rgba(255, 255, 255, 0.205);
@@ -327,6 +357,8 @@
     font-family: 'Kanit', sans-serif;
 }
 
+/* Mail block */
+
 .mail{
     border-bottom: 2px solid rgba(255, 255, 255, 0.61);
     padding-bottom: 5px;
@@ -342,6 +374,8 @@ ion-icon{
     font-size: 24px;
 }
 
+/* Social media */
+
 .social_media{
     margin: 20px auto;
     width: 100px;
@@ -352,13 +386,4 @@ ion-icon{
 .social_media a{
     width: 20px;
     margin: 5px;
-}
-
-
-
-
-
-
-.img_with_popup {
-    position: relative;
 }

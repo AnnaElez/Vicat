@@ -1,10 +1,187 @@
-
-
 @media (max-width: 1200px){
+    /* First wallpaper */
 
+    .alliens_wrap{
+        margin-bottom: -5px;
+    }
+
+
+    /* Collage with alliens */
+
+    .collage{
+        margin-bottom: -2px;
+    }
+
+    .rotatable_al{
+        width: 80px;
+        top: 70%;
+    }
+
+    .sec_al{
+        width: 17rem;
+    }
+
+    .third_al{
+        width: 28rem;
+    }
+
+
+    /* Alliens' cards */
+    .cards{
+        padding: 200px 0;
+    }
+
+
+   .background_of_two{
+        background-size:100vw;
+        padding-bottom: 100px;
+    }
+
+   /* Wallpaper to UNHOLEY */
+
+    .full_width_img{
+        background-size:100vw;
+        height:79vh; 
+        padding-bottom: 258px;
+    }
+    
+
+    /* Two heads wallpaper */
+    
+    .heads{
+        height: 60vh;
+    } 
+
+
+    /* B&W cards with heads */
+   .cards_grid{
+       padding: 150px 0 100px 0;
+   }
+
+    .cards_collection{
+        padding: 100px 0;
+    }
+
+    /* Alice in wonderland wallpaper */
+    .wallpaper{
+        height: 90vh;
+    }
+
+    /* Gallery pic */
+    .picture_out_row2{
+        right: 340px;
+    }
 }
 
 
-@media (max-width: 768px){
 
+@media (max-width: 768px){
+    
+    .collage{
+       height: 50vh;
+    }
+    /* Alliens inside collage */
+
+    .rotatable_al{
+        width: 60px;
+        top: 100%;
+        left: 113px;
+    }
+
+    .sec_al{
+        width: 12rem;
+        left: 111px;
+    }
+
+    .third_al{
+        width: 20rem;
+        right: 33px;
+    }
+
+    /* Alliens' cards */
+    .cards{
+        padding: 200px 0 80px 0;
+    }
+
+    .without_shape{
+        padding-bottom: 3.5rem;
+    }
+
+
+   .background_of_two{
+        padding-bottom: 3rem;
+    }
+
+    /* Wallpaper to UNHOLEY */
+
+    .full_width_img{
+        padding-bottom: 0;
+    }
+
+    .full_width_img h1{
+        padding: 1.3rem;
+        font-size: 1.8rem;
+    }
+
+    /* Two heads wallpaper */
+    .heads{
+        height: 60vh;
+    }
+
+    .heads p{
+        width: 12rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    /* B&W cards with heads */
+
+    .cards_grid{
+        padding: 21px 0 73px 0;
+    }
+
+    .gif{
+        padding-bottom: 0;
+    }
+    /* Alice in wonderland wallpaper */
+    .wallpaper{
+        height: 68vh;
+    }
+    
+    .wallpaper h2{
+        font-size: 2rem;
+        line-height: 30px;
+        right: 0;
+        left: 24.2rem;
+    } 
+    
+
+
+
+    /* Total poker cards block */
+   
+   .three_column_grid p {
+       width: 12.3rem;
+       font-size: 0.9rem;
+   }
+
+    .cards_collection{
+        padding:0 0 6.25rem 0;
+        grid-gap: 13px;
+    }
+
+
+    /* Gallery of few illustrations */
+    .gallery_wrapper h2{
+        padding: 37px 0;
+        font-size: 2rem;
+    }
+
+    .gallery{
+        padding: 0;
+    }
+
+    .picture_out_row2{
+        right: 13.3rem;
+    }
 }
