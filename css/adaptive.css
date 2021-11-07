@@ -10,6 +10,8 @@
 
     .collage{
         margin-bottom: -2px;
+        height: 75vh;
+        background-size: 30%;
     }
 
     .rotatable_al{
@@ -18,23 +20,29 @@
     }
 
     .sec_al{
-        width: 17rem;
+        width: 15rem;
+        top: 30%;
     }
 
     .third_al{
-        width: 28rem;
+        width: 26rem;
+        top: 30%;
+
     }
 
 
     /* Alliens' cards */
     .cards{
-        padding: 200px 0;
+        padding: 12.5rem 0 0 0;
+        width: 48rem;
     }
 
+    .without_shape{
+        padding: 80px 0;
+    }
 
    .background_of_two{
         background-size:100vw;
-        padding-bottom: 100px;
     }
 
    /* Wallpaper to UNHOLEY */
@@ -42,9 +50,12 @@
     .full_width_img{
         background-size:100vw;
         height:79vh; 
-        padding-bottom: 258px;
+        padding-bottom: 16rem;
     }
     
+    .full_width_img h1{
+        font-size: 2.2rem;
+    }
 
     /* Two heads wallpaper */
     
@@ -55,11 +66,12 @@
 
     /* B&W cards with heads */
    .cards_grid{
-       padding: 150px 0 100px 0;
+       padding: 12.5rem 0 6.25rem 0;
+       grid-gap: 3px;
    }
 
     .cards_collection{
-        padding: 100px 0;
+        padding: 6.25rem 0;
     }
 
     /* Alice in wonderland wallpaper */
@@ -67,11 +79,110 @@
         height: 90vh;
     }
 
+    .wallpaper h2{
+        font-size: 2.2rem;
+    }
+
+    .three_column_grid{
+        width: 76vw;
+        grid-gap: 41px;
+        padding: 6.25rem 0 0 0;
+    }
+
+    .cards_collection{
+        grid-gap: 15px;
+        width: 76vw;
+        padding: 5rem 0;
+    }
+
+    .gallery_wrapper h2{
+        padding: 2.8rem 0;
+        font-size: 2.2rem;
+    }
     /* Gallery pic */
+
     .picture_out_row2{
-        right: 340px;
+        right: 21.2rem;
+    }
+
+    /* Contacts */
+
+    .contact{
+        margin: 4.3rem 0 0 0;
     }
 }
+
+
+
+
+
+@media (max-width: 992px){
+
+    /* Alliens inside collage */
+
+    .rotatable_al{
+        top: 80%;
+        left: 11.8rem;
+    }
+
+     .sec_al{
+        left: 10.5rem;
+    }
+
+    .third_al{
+        width: 24rem;
+        right: 2rem;
+    }
+
+    /* Alliens' cards */
+    .cards{
+        width: 40rem;
+    }
+
+    /* Wallpaper to UNHOLEY */
+
+   .full_width_img{
+        padding-bottom: 6.8rem;
+    }
+
+    /* Two heads wallpaper */
+
+    .heads p{
+        width: 12rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    } 
+
+    /* B&W cards with heads */
+
+    .cards_grid{
+        padding: 7rem 0 0 0;
+    }
+
+    .gif{
+        padding: 70px 0;
+    }
+    /* Alice in wonderland wallpaper */
+    
+    .wallpaper h2{
+        font-size: 1.9rem;
+        right: 0;
+        left: 24.2rem;
+    } 
+
+
+    /* Gallery of few illustrations */
+    .gallery_wrapper h2{
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .picture_out_row2{
+        right: 17.5rem;
+    } 
+}
+
+
 
 
 
@@ -100,13 +211,13 @@
 
     /* Alliens' cards */
     .cards{
-        padding: 200px 0 80px 0;
+        padding: 200px 0 0 0;
+        width: 35rem;
     }
 
     .without_shape{
-        padding-bottom: 3.5rem;
+        padding:60px 0;
     }
-
 
    .background_of_two{
         padding-bottom: 3rem;
@@ -137,11 +248,11 @@
     /* B&W cards with heads */
 
     .cards_grid{
-        padding: 21px 0 73px 0;
+        padding: 21px 0 47px 0;
     }
 
     .gif{
-        padding-bottom: 0;
+        padding: 0;
     }
     /* Alice in wonderland wallpaper */
     .wallpaper{
@@ -149,36 +260,34 @@
     }
     
     .wallpaper h2{
-        font-size: 2rem;
+        font-size: 1.7rem;
         line-height: 30px;
         right: 0;
         left: 24.2rem;
     } 
     
-
-
-
     /* Total poker cards block */
    
    .three_column_grid p {
        width: 12.3rem;
-       font-size: 0.9rem;
+       font-size: 0.8rem;
+       line-height: 1.1rem;
+   }
+
+   .three_column_grid{
+       padding: 5rem 0;
    }
 
     .cards_collection{
-        padding:0 0 6.25rem 0;
+        padding:0 0 4.25rem 0;
         grid-gap: 13px;
     }
 
 
     /* Gallery of few illustrations */
     .gallery_wrapper h2{
-        padding: 37px 0;
-        font-size: 2rem;
-    }
-
-    .gallery{
-        padding: 0;
+        padding: 2rem 0;
+        font-size: 1.8rem;
     }
 
     .picture_out_row2{

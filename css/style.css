@@ -81,23 +81,23 @@
 
 .rotatable_al{
     transform: rotate(-5deg);
-    width: 120px;
+    width: 7.5rem;
     position: absolute;
-    left: 250px;
+    left: 15.6rem;
     z-index: 2;
     top: 80%;
 }
 
 .sec_al{
     position: absolute;
-    left: 250px;
+    left: 15.6rem;
     top: 40%;
     width: 22rem;
 } 
 
 .third_al{
     position: absolute;
-    right: 100px;
+    right: 6.25rem;
     top: 40%;
     width: 37rem;
 }
@@ -107,7 +107,7 @@
 .without_shape{
     display: block;
     width: 50vw;
-    padding-bottom: 200px;
+    padding-bottom: 12.5rem;
 }
 
 
@@ -120,10 +120,10 @@
 }
 
 .cards{
-    padding: 300px 0;
+    padding: 18.7rem 0;
     width: 60vw;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 15px; 
+    grid-gap: 1rem; 
 }
 
 .cards div{
@@ -146,7 +146,7 @@
 
 .full_width_img h1{
     text-transform:uppercase;
-    padding: 50px;
+    padding: 3.1rem;
     font-family: 'DM Serif Display', serif;
     font-size: 2.5rem;
 }
@@ -167,8 +167,8 @@
 .heads p{
     width: 20rem;
     font-family: 'Kanit', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     position: absolute;               
     top: 50%;    
     left: 50%;                     
@@ -177,7 +177,7 @@
 
 /* B&W cards with heads  and gif*/
 .cards_grid{
-    padding: 100px 0;
+    padding: 2rem 0 5rem 0;
     width: 70vw ;
     grid-template-columns: repeat(6,1fr);
     grid-gap: 10px; 
@@ -185,7 +185,7 @@
 
 .gif{
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
 }
 
 .gif img{
@@ -206,10 +206,10 @@
     font-family: 'DM Serif Display', serif;
     color: rgba(212, 150, 194, 1);
     font-size: 2.5rem;
-    line-height: 41px;
+    line-height: 2.5rem;
     position: absolute;
-    top: 50px;
-    right: 300px;
+    top: 3.1rem;
+    right: 18.7rem;
 }
 
 /* Total poker cards block */
@@ -217,9 +217,9 @@
 .three_column_grid{
     position: relative;
     width: 80vw ;
-    padding: 100px 0;
+    padding: 6.25rem 0;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 50px;
+    grid-gap: 3rem;
 }
 
 .three_column_grid section:first-child{
@@ -227,7 +227,7 @@
 }
 
 .three_column_grid p{
-    width: 300px;
+    width: 18.7rem;
     font-family: 'Kanit', sans-serif;
     font-size: 1rem;
     font-weight: 100;
@@ -254,7 +254,7 @@
     width: 80vw;
     grid-template-columns: repeat(9,1fr);
     grid-gap: 20px;
-    padding: 100px 0  200px 0;
+    padding: 4rem 0 12.5rem 0;
 }
 
 .cards_collection div, .cards div, .cards_grid div{
@@ -276,13 +276,12 @@
 .gallery{
     width: 90vw;
     position: relative;
-    padding-top: 80px ;
 }
 
 .gallery_wrapper h2{
     font-family: 'DM Serif Display', serif;
     font-size: 2.5rem;
-    padding-top: 80px ;
+    padding: 80px 0 ;
     color: white;
 }
 
@@ -308,7 +307,7 @@
     position: absolute;
     bottom: 0;
     z-index: 5;
-    right: 430px;
+    right: 26.8rem;
     width: 20%;
 
 }
@@ -334,14 +333,14 @@
 /* Contacts */
 
 .contact {
-    margin: 100px 0 0 0;
+    margin: 6.25rem 0 0 0;
     border-top: 1px solid rgba(255, 255, 255, 0.205);
     height: 100vh;
     justify-content: center;
 }
 
 .gif_text{
-    width: 300px;
+    width: 18.7rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -378,7 +377,7 @@ ion-icon{
 
 .social_media{
     margin: 20px auto;
-    width: 100px;
+    width: 6.25rem;
     justify-content: center;
     align-items: center;
 }
